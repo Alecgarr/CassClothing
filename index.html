@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cass Art And Clothing</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<body>
+<div id="page">
+	<header id="header">
+		<div class="wrap">
+		<h1 id="h01"></h1>
+		</div>	
+	</header>
+<!-- END HEADER    -->
+			<div class="main-nav">
+			<ul class="menu">
+				<li ><a href="">HOME</a></li>
+				<li ><a href="/CassClothing/index.html">BLOG</a></li>
+				<li ><a href="#">CONTACT</a></li>
+				<li ><a href="#">SHOP</a></li>	
+			</ul>
+		</div> 
+<!-- END MAIN NAVIGATION    -->
+		<footer id='footer'>
+	  Cass Art&Clothing &copy 2015	<br />
+	 <a href="">Home</a>&nbsp;|&nbsp;
+	 <a href="#">Blog</a>&nbsp;|&nbsp;  
+	 <a href="#">Contact</a>&nbsp;|&nbsp;
+	 <a href="#">Shop</a>
+
+	 </footer>
+</div>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+       $("a").each(function(){
+               if ($(this).attr("href") == window.location.pathname){
+                       $(this).addClass("selected");
+               }
+       });
+});
+
+</script>
+</body>
+</html>
